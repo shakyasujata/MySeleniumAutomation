@@ -111,7 +111,7 @@ public class SeleniumAutomationTest {
 		driver.findElement(By.xpath("//span[contains(text(),'Order history and details')]")).click();
 		
 //		15. Capture a screenshot of the order history
-		takeSnapShot(driver, "/Users/workspace_neon/selenium_automation_test_imtiaz/screenshots/order.jpg");
+		takeSnapShot(driver, "screenshots/order.jpg");
 		
 //		16. Sign out from the application
 		driver.findElement(By.xpath("//a[@class='logout']")).click();
